@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla CSS |  A minimal baseline stylesheet for any web project</title>
+    <link rel="stylesheet" href="vanilla.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+        body{margin:0 auto;max-width:50rem;}
+        @media(max-width:50rem) {
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <article>
+      <header><h1>Long Live Passwords</h1></header>
+    </article>
+
+    <article>
+      <header><h2>Why are password expiration policies bad?</h2></header>
+      <div>
+        <p>
+          Password expiration actually *weakens* security since humans can only remember a limited number of passwords and thus often make only a small change to their previous password. This makes passwords easier to crack.
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>Why are passwords expired?</h2></header>
+      <div>
+        <p>
+          An employee NIST gave it as an official recommendation in 2003. He has since regretted since password expiration policies actually *weaken* security. [0]
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>What should I do about password expiration policies?</h2></header>
+      <div>
+        <p>
+          Let your boss, Head of Security, management etc. know that password expiration policies weaken rather than improve security. If you are in a position of power consider removing the password expiration policy (bonus: your users are going to love you for not having to change passwords!). For specific guidelines read NIST's document [1] or one of the digests [3,4]
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>Why should I trust NIST when they recommend against password expiration policies?</h2></header>
+      <div>
+        <p>
+          NIST were the ones to originally recommend password expiration policies so they are probably the reason your organization has those policies to begin with [0]! If you drop the policies you are still putting your trust the same place. Other tech leaders such as Microsoft are also moving away from password expiration policies [2]
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>My security advisor recommends that I use password expiration policies</h2></header>
+      <div>
+        <p>
+          NIST were the ones to originally recommend password expiration policies so they are probably the reason your organization has those policies to begin with [0]! If you drop the policies you are still putting your trust the same place. Other tech leaders such as Microsoft are also moving away from password expiration policies [2]
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>Who uses password expiration policies?</h2></header>
+      <div>
+        <p>
+          Many organizations and companies have expiring passwords as a security policy.
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>What is the purpose of this page?</h2></header>
+      <div>
+        <p>
+          This page has multiple purposes:
+          - Spread awareness of the fact that password expiration policies are harmful.
+          - Provide a compact version of the arguments against password expiration policies. Many similar pages explain the issue in greater detail (see links in Read More inkzzz]) at the risk of turning the reader away.
+          - The end goal is to liberate every single person everywhere from the frustration of having to needlessly change passwords.
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>References</h2></header>
+      <div>
+        <p>
+          [0] https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118
+          [1] https://pages.nist.gov/800-63-FAQ/#q-b5
+          [2] https://blogs.technet.microsoft.com/secguide/2019/05/23/security-baseline-final-for-windows-10-v1903-and-windows-server-v1903/
+          [3] https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/
+          [4] https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/
+        </p>
+      </div>
+    </article>
+    <article>
+      <header><h2>Read More</h2></header>
+      <div>
+        <p>
+          https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/
+          https://venturebeat.com/2019/08/09/broadcom-acquires-symantecs-enterprise-division-for-10-7-billion/
+        </p>
+      </div>
+    </article>
+  </body>
+</html>
